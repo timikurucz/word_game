@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <h1>Let's play!</h1>
+  <form ng-submit="checkWord()">
+    <label for="word"></label>
+      <input type="text" class="inputWord" placeholder="write a word" ng-model="inputWord">
+    <button type="submit" class="submit">play</button>
+  </form>
+  <!-- <ul>
+      <li ng-repeat="word in dictionary">{{word}}</li>
+  </ul>
+
+  <ul>
+      <li ng-repeat="score in highscores">{{score}}</li>
+  </ul> -->
+  <div>{{message}}</div>
+  <div>{{error}}</div>
+</div>

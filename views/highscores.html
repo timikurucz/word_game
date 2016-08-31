@@ -1,0 +1,19 @@
+<h1>Your scores are:</h1>
+<!-- <ul>
+    <li ng-repeat="score in getHighscores() | orderBy: score">{{score}}</li>
+</ul> -->
+
+<table>
+  <thead>
+    <tr>
+      <th>Word</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="score in getHighscores()" >
+      <td>{{score.word}}</td>
+      <td>{{score.score}}</td>
+    </tr>
+  </tbody>
+</table>

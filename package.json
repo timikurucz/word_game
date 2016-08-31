@@ -1,0 +1,15 @@
+{
+  "name": "blackswan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timi Kurucz",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "underscore": "^1.8.3"
+  }
+}
